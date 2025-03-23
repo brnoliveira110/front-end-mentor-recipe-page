@@ -16,13 +16,13 @@ const outfitSemiBold = Outfit({ subsets: ["latin"], weight: "600" });
 
 export default function Home() {
   return (
-    <>
+    <div className="bg-white md:p-[40px] md:rounded-[24px] max-w-[736px] m-auto">
       <Image
         src={HeroMobile}
         alt="Prato de refeição"
         width={375}
         height={171}
-        className="w-full"
+        className="w-full sm:rounded-[12px]"
       />
 
       <section className="space-y-8 my-10 mx-8">
@@ -104,6 +104,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-    </>
+    </div>
   );
 }

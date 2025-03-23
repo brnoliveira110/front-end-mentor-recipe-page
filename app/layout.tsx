@@ -13,7 +13,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased  md:bg-stone-100 md:py-[128px] md:px-[48px]">
+        {children}
+      </body>
     </html>
   );
 }
