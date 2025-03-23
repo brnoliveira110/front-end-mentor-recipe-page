@@ -28,7 +28,7 @@ module.exports = {
         'outfit-Regular':['Outfit-Regular', 'sans-serif'],
         'outfit-SemiBold':[ 'Outfit-SemiBold', 'sans-serif'],
         'outfit-Thin':[,'Outfit-Thin', 'sans-serif'],
-        ' youngSerif-Regular':[ 'YoungSerif-Regular', 'sans-serif'],
+        'youngSerif-Regular':[ 'YoungSerif-Regular', 'sans-serif'],
 
       }
     },
