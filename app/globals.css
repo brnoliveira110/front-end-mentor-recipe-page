@@ -1,26 +1,64 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face{
+  font-family: 'Outfit-Black';
+  src: url('/public/fonts/outfit/Outfit-Black.ttf') format('ttf');
+  font-style: normal;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+@font-face{
+  font-family: 'Outfit-Bold';
+  src: url('/public/fonts/outfit/Outfit-Bold.ttf') format('ttf');
+  font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face{
+  font-family: 'Outfit-ExtraBold';
+  src: url('/public/fonts/outfit/Outfit-ExtraBold') format('ttf');
+  font-style: normal;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face{
+  font-family: 'Outfit-ExtraLight';
+  src: url('/public/fonts/outfit/Outfit-ExtraLight') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Outfit-Light';
+  src: url('/public/fonts/outfit/Outfit-Light') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Outfit-Medium';
+  src: url('/public/fonts/outfit/Outfit-Medium') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Outfit-Regular';
+  src: url('/public/fonts/outfit/Outfit-Regular') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Outfit-SemiBold';
+  src: url('/public/fonts/outfit/Outfit-SemiBold') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Outfit-Thin';
+  src: url('/public/fonts/outfit/Outfit-Thin') format('ttf');
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'YoungSerif-Regular';
+  src: url('/public/fonts/young-serif/YoungSerif-Regular.ttf') format('ttf');
+  font-style: normal;
 }
